@@ -1,0 +1,22 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Brand</th>
+        <th>Desc</th>
+        <th>Price</th>
+    </tr>
+
+   
+          <tr *ngFor="let news of newsdata">
+          
+             
+              <td>{{news.name}}</td>
+              <td>{{news.category}}</td>
+              <td>{{news.brand}}</td>
+              <td>{{news.desc}}</td>
+              <td>{{news.price}}</td>
+              
+          
+    </tr>
+</table>

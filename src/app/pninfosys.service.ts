@@ -8,6 +8,9 @@ export class PninfosysService {
 
   mydata:string='vikas jain'; //service ko use
 
+
+  
+
   stdData:any[]=[
 
     {id:1,name:'vikas',email:'jain@gmail.com',address:'Gwalior'},

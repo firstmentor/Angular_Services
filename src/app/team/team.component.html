@@ -1,0 +1,27 @@
+<p>team works!</p>
+
+<h2>HTTP CLIENT API</h2>
+
+<div  *ngIf="newsdata">
+        <table class="table table-bordered">
+            <tr>
+              
+              <th>Author</th>
+               <th>Title</th>
+               <th>Description</th>
+               <th>Image</th>
+            </tr>
+            <tr *ngFor="let news of newsdata">
+          
+             
+              <td>{{news.author}}</td>
+                <td>{{news.title}}</td>
+                <td>{{news.description}}</td>
+                <td><img [src]="news.urlToImage" width="100px" height="200px"></td>
+            </tr>
+        </table>
+       
+
+    </div>
+
+
